@@ -1,0 +1,22 @@
+---
+- students: 
+  - name: anil
+    phone: 415648648
+    address: 
+        door no: harekrishna bldg
+        flat no: 201
+        pincode: 400071  
+
+  - name: kanchan 
+    phone: 46841 
+    address:
+       door no: harekrishna bldg
+       flat no: 201
+       pincode: 400071  
+
+  - name: kartik
+    phone: 489486648
+    address:
+            door no: harekrishna bldg
+            flat no: 201
+            pincode: 400071 
