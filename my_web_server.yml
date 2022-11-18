@@ -10,4 +10,4 @@
   - name: i want to install webserver on ubuntu
     service: 
       name: apache2 
-      state: startd   
+      state: started   
