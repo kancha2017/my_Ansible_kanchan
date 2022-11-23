@@ -6,9 +6,11 @@
     apt: 
       name: apache2 
       state: persent 
-
   - name: i want to install webserver on ubuntu
     service: 
       name: apache2 
       state: started   
      
+
+
+
