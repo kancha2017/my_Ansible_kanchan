@@ -4,10 +4,8 @@
   tasks: 
   - name: install wget 
     apt: 
-      name: install wget 
-      apt: 
-        name: wget 
-        state: present 
+      name: wget 
+      state: present 
 
   - name: install tree 
     apt: 
@@ -18,5 +16,4 @@
     apt: 
       name: git 
       state: present 
-      
-                
+
