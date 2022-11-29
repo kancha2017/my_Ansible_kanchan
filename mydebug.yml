@@ -21,3 +21,4 @@
     apt: 
       name: tree
       state: present        
+    whene: myfirsttaskresult.stderr ==""  
