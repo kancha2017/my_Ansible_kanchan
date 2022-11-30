@@ -7,19 +7,16 @@
   - name: install webserver
     apt: 
      name: apache2
-    notify: restartwebserver
 
   - name: i want to copy static file into ansible nodes 
     copy: 
      src: mystatic.txt
      dest: /home/ubuntu/mystatic.txt 
-    notify: restartwebserver
 
   - name: i want to copy dyno file into ansible nodes   
     template:
        src: mydynofile.j2
        dest: /var/www/html/index.html 
-    notify: restartwebserver
 
   - name: i want to download remote files inot ansible nodes 
     get_url: 
@@ -27,12 +24,6 @@
       dest: /home/ubuntu/apache-tomcat-8.0.15.tar.gz
       force_basic_auth: yes
       
-    
-  handlers:
-  - name: restartwebserver 
-    service: 
-       name: apache2 
-       state: restarted
 
 
      
