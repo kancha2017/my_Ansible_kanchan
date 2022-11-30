@@ -28,11 +28,12 @@
       force_basic_auth: yes
     notify: restartwebserver  
     
+
   handlers:
   - name: restartwebserver 
     service: 
        name: apache2 
-       state: restarted
+       state: restart
 
 
      
